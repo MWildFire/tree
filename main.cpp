@@ -84,7 +84,7 @@ private:
             for (int i = 0; i < line + 4; i ++)
                 stream << '-';
             stream << key << std::endl;
-            if (right)
+            if (right != nullptr)
             {
                 right-> print_tree(stream, line +4);
             }
