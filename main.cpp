@@ -73,7 +73,6 @@ private:
                 }
                 else return false;
             }
-            return NULL;
         }
         
         void print_tree(std::ostream & stream, int line = 0)
